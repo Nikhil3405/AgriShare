@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://127.0.0.1:8000/api",
+  baseURL: "https://agrishare-52sg.onrender.com/api",
 });
 
 // Attach access token
@@ -37,7 +37,7 @@ API.interceptors.response.use(
           localStorage.getItem("refreshToken");
 
         const res = await axios.post(
-          "http://127.0.0.1:8000/api/users/refresh/",
+          "https://agrishare-52sg.onrender.com/api/users/refresh/",
           {
             refresh,
           }

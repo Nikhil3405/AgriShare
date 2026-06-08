@@ -26,7 +26,7 @@ const EquipmentPhotos = () => {
   const getImageUrl = (path) => {
     if (!path) return "/placeholder.jpg";
     if (path.startsWith("http")) return path;
-    return `http://127.0.0.1:8000${path}`;
+    return `https://agrishare-52sg.onrender.com${path}`;
   };
 
   const fetchImages = async () => {
