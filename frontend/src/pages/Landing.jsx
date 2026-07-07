@@ -42,13 +42,13 @@ const Landing = () => {
                 Browse Equipment
                 <Search className="ml-2 h-5 w-5" />
               </Link>
-              <Link
+              {/* <Link
                 to="/register"
                 className="flex items-center justify-center bg-white/10 hover:bg-white/20 backdrop-blur-md text-white border border-white/30 px-8 py-4 rounded-xl font-bold transition-all"
               >
                 List Your Gear
                 <ArrowRight className="ml-2 h-5 w-5" />
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>
@@ -121,12 +121,12 @@ const Landing = () => {
               >
                 Start Exploring
               </Link>
-              <Link
+              {/* <Link
                 to="/register"
                 className="bg-white hover:bg-gray-100 text-slate-900 px-8 py-3 rounded-xl font-bold transition-all"
               >
                 Join Community
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>
