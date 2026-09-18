@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://agrishare-52sg.onrender.com/api",
+  baseURL: "https://agri-share-h4c9.vercel.app/api",
 });
 
 // Attach access token
